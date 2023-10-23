@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/snok"
+    android:gravity="center"
+    tools:context=".contactUsActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="350dp"
+       android:padding="3dp"
+       android:gravity="center"
+       android:background="@drawable/text1style"
+       android:layout_marginBottom="150dp"
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:layout_margin="10dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name"
+               android:layout_marginRight="4dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:padding="4dp"
+               android:textSize="20dp"
+
+               android:textStyle="bold"
+               android:fontFamily="@font/googlesans_bold"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name2"
+               android:layout_marginLeft="4dp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:padding="4dp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:textSize="20dp"
+
+               android:fontFamily="@font/googlesans_bold"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:layout_margin="10dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="RegNo"
+               android:layout_marginRight="4dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:padding="4dp"
+               android:textSize="20dp"
+
+               android:textStyle="bold"
+               android:fontFamily="@font/googlesans_bold"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="RegNo2"
+               android:layout_marginLeft="4dp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:padding="4dp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:textSize="20dp"
+               android:fontFamily="@font/googlesans_bold"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:layout_margin="10dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Department"
+               android:layout_marginRight="4dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:padding="4dp"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:fontFamily="@font/googlesans_bold"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Deptarment2"
+               android:layout_marginLeft="4dp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:padding="4dp"
+               android:gravity="center"
+               android:textColor="@color/white"
+               android:textSize="20dp"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="4dp"
+           android:layout_margin="10dp"
+
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/btn_con1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:background="@drawable/btn_style3"
+               android:layout_weight="1"
+               android:fontFamily="@font/baloo"
+               android:onClick="btn_col1"
+               android:text="Visit Contact"
+               android:layout_marginRight="10dp"
+               android:textColor="#fff"
+               android:textSize="17dp"
+               android:layout_gravity="center"/>
+
+           <Button
+               android:id="@+id/btn_con2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:onClick="btn_col2"
+               android:background="@drawable/btn_style3"
+               android:fontFamily="@font/baloo"
+               android:text="Visit Contact"
+               android:textColor="#fff"
+               android:textSize="17dp"
+               android:layout_gravity="center"/>
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+</LinearLayout>

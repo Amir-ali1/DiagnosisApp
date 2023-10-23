@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".abousUsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textColor="@color/jerry"
+        android:background="@drawable/text2style"
+        android:text="Who doesn’t know a patient who has consulted with Dr. Internet? Symptom Checker is the ideal tool to assist patients in preliminary diagnosis. Using artificial intelligence to check symptoms, it then guides patients to the appropriate medical services.Identify patients’ needs and appropriate care. Using our technology, it is easy to accurately identify those who can self-treat, qualify for teleconsultation, consult a doctor, or seek immediate medical treatment.Our medical database is fed from the world of science and medicine through well-respected publications."
+        android:textSize="20dp"
+        android:fontFamily="@font/googlesans_bolditalic"/>
+
+    <Button
+        android:id="@+id/btn_diagnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_style3"
+        android:fontFamily="@font/baloo"
+        android:textStyle="bold"
+        android:text="Visit Symptom Panel"
+        android:onClick="btn_symptom"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
